@@ -83,12 +83,14 @@ Regra: troque `github.com` por `raw.githubusercontent.com` e **remova o `/blob`*
 **Referência por branch `main` (auto-atualizável):** todos os snippets apontam para `.../main/<arquivo>`.
 Assim, ao trocar a imagem no repo, a assinatura atualiza sozinha — sem editar os arquivos.
 
-**Aplicados:**
+**Aplicados (GitHub raw):**
 - Logo: `.../main/logo%20bee6.png` ✅
 - Foto Mari: `.../main/mari.png` ✅
 
-**Faltam subir no repo (mesma branch `main`):**
-- `arthur.png`, `luciano.png`, `marcio.png`
+**Fotos de Arthur, Luciano e Márcio: bucket bee6, não GitHub.**
+Ficam em `https://storage.googleapis.com/commom-files/fotos-socios/assinatura/<slug>.jpg`.
+Arquivos prontos em `assets/fotos/` — ver `assets/README.md` para o comando de upload e o
+motivo do recorte.
 
 ---
 
@@ -116,9 +118,9 @@ Telefone: `+55 11 XXX XXX XXX`. Slug: `nome-sobrenome` (minúsculo, sem acento).
 | Pessoa | Cargo real | Cargo-fantasia | E-mail | Telefone | Foto |
 |---|---|---|---|---|---|
 | Mariana Càstteluci | New Business | Falcoeira do Digital * | mari@bee6.com.br | +55 11 981 930 415 | ✅ no repo |
-| Arthur Rodrigues | Martech | Antigo Druida das Planilhas | arthur.rodrigues@bee6.com.br | +55 11 979 723 332 | ⬜ falta foto `arthur.png` (snippet pronto) |
-| Luciano Monaco | New Business | Grande Mestre do Inbox | luciano.monaco@bee6.com.br | +55 11 969 281 962 | ⬜ falta foto `luciano.png` (snippet pronto) |
-| Márcio Botelho | New Business | Dom Quixote do Digital | marcio.botelho@bee6.com.br | +55 11 946 150 398 | ⬜ falta foto `marcio.png` (snippet pronto) |
+| Arthur Rodrigues | Martech | Antigo Druida das Planilhas | arthur.rodrigues@bee6.com.br | +55 11 979 723 332 | ✅ no GCS |
+| Luciano Monaco | New Business | Grande Mestre do Inbox | luciano.monaco@bee6.com.br | +55 11 969 281 962 | ✅ no GCS |
+| Márcio Botelho | New Business | Dom Quixote do Digital | marcio.botelho@bee6.com.br | +55 11 946 150 398 | ✅ no GCS |
 
 \* Trocado de "Andarilha do Digital" para **"Falcoeira do Digital"** (decisão da Mari). Reverter é só editar o snippet.
 
